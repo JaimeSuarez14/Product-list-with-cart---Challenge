@@ -53,7 +53,7 @@ function ProductCard({image, name, category, price}) {
 
       {quantity ===0 ?
       (<button onClick={addOne} className="bg-Rose-50 border-2 border-Rose-300 w-40 rounded-full flex p-3 justify-center gap-2 absolute right-0 left-0 mx-auto top-[190px] cursor-pointer hover:border-Red transition-colors duration-300">
-        <img src="/public/assets/images/icon-add-to-cart.svg" alt="icon-add-to-cart" />
+        <img src="/assets/images/icon-add-to-cart.svg" alt="icon-add-to-cart" />
         <span>Add to Cart</span>
       </button>) 
       

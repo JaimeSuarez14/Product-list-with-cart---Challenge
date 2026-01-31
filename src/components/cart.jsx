@@ -16,7 +16,7 @@ const Cart = () => {
     }
     < TotalCart />
     <div className="bg-Rose-100 rounded-lg flex justify-center gap-1 p-4 mb-4">
-      <img src="/public/assets/images/icon-carbon-neutral.svg" alt="" />
+      <img src="/assets/images/icon-carbon-neutral.svg" alt="" />
       <p className="text-sm">This is a <span className="font-bold">carbon neutral</span> delivery</p>
     </div>
     < CartButton onClick={toggleClose} text={'Confirm Order'}/>
